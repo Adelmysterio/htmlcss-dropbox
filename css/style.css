@@ -67,29 +67,69 @@ a {
 /* Stile Header */
 
 header {
-    background-color: green;
+    position: sticky;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
 }
 
 nav {
+    padding: 1.5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1rem;
+    margin-left: 1rem;
 }
 
 header img {
     height: 1.5rem;
+    margin-right: 2rem;
 }
 
 header li {
-    padding: 1rem;
+    padding: 0 1rem;
+}
+
+header a {
+    color: rgb(58, 58, 58);
 }
 
 /* Stile Main */
 
 
 .jumbo {
-    background-color: aquamarine;
+    background-color: #b4d0e7;
+    margin-bottom: 5rem;
+}
+
+.jumbo button {
+    width: 13rem;
+    padding: .8rem 0;
+}
+
+.jumbo p {
+    margin-bottom: 3rem;
+}
+
+.jumbo i {
+font-size: 3rem;
+padding-bottom: 1rem;
+}
+
+.jumbo section.flex.column {
+    width: 30%;
+}
+
+.jumbo .img-box {
+    width: 70%;
+    position: relative;
+}
+
+.img-box img {
+    width: 100%;
+    position: absolute;
 }
 
 .fatturation-info {
@@ -99,20 +139,6 @@ header li {
 main h1 {
     font-size: 4.5rem;
     font-weight: 900;
-}
-
-main .jumbo section.flex.column {
-    width: 40%;
-}
-
-.jumbo .img-box {
-    width: 60%;
-    position: relative;
-}
-
-.img-box img {
-    width: 100%;
-    /* position: absolute; */
 }
 
 main h2 {
@@ -147,51 +173,6 @@ main h2 {
 
 .operations section {
     width: calc(33% - 2rem)
-}
-
-
-
-/* Stile article */
-
-article {
-    border: 1px solid black;
-    width: calc(33% - 2rem);
-    font-size: .8rem;
-    margin-bottom: 2rem;
-}
-
-main i {
-    color: black;
-}
-
-main article span {
-    text-align: center;
-    padding: .4rem;
-}
-
-main article>section {
-    padding: 2rem;
-}
-
-main article>section>section>* {
-    padding-bottom: 1rem;
-}
-
-main article>section>section li {
-    padding-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.4rem;
-}
-
-.orizontal {
-    width: 100%;
-}
-
-.orizontal section {
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 .adv {
@@ -254,10 +235,54 @@ footer hr {
     color: white;
 }
 
-.language p *{
+.language p * {
     margin-right: .5rem;
     color: #949c9c;
 }
+
+/* Stile article */
+
+article {
+    border: 1px solid black;
+    width: calc(33% - 2rem);
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+main i {
+    color: black;
+}
+
+main article span {
+    text-align: center;
+    padding: .4rem;
+}
+
+main article>section {
+    padding: 2rem;
+}
+
+main article>section>section>* {
+    padding-bottom: 1rem;
+}
+
+main article>section>section li {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.orizontal {
+    width: 100%;
+}
+
+.orizontal section {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 
 /* Companies Area Style */
 
@@ -301,4 +326,19 @@ footer hr {
 
 .companies-area hr {
     width: 20%;
+}
+
+/* Stile Bottoni */
+
+button {
+    border: none;
+    padding: .4rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.blue {
+    background-color: #0765ff;
+    color: white;
 }
