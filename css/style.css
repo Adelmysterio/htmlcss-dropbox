@@ -74,6 +74,13 @@ main h1 {
     font-weight: 900;
 }
 
+main section.centered.column {
+width: 40%;
+}
+
+.img-box {
+    width: 60%;
+}
 
 .img-box img {
     width: 100%;
