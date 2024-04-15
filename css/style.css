@@ -74,7 +74,7 @@ main h1 {
     font-weight: 900;
 }
 
-main section.centered.column {
+main section.flex.column {
 width: 40%;
 }
 
