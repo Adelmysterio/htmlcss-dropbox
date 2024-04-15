@@ -1,3 +1,52 @@
+/* Stile Generale */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Stile Header */
+
+header {
+    background-color: green;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+header img {
+    height: 1.5rem;
+}
+
+header li {
+    padding: 1rem;
+}
+
+/* Stile Main */
+
+.large-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 600px;
 }
