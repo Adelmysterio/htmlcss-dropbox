@@ -14,7 +14,7 @@ ul {
 }
 
 a {
-    text-decoration: none;
+    color: blue;
 }
 
 .flex {
@@ -60,8 +60,20 @@ a {
     margin-bottom: 10rem;
 }
 
+.price {
+font-weight: bold;
+}
+
+.times {
+    color: #969696;
+}
+
 .bordeaux {
     color: #60042c;
+}
+
+.fa-check {
+    color: #0765ff;
 }
 
 /* Stile Header */
@@ -94,20 +106,18 @@ header li {
 
 header a {
     color: rgb(58, 58, 58);
+    text-decoration: none;
 }
 
 /* Stile Main */
 
+/* Stile Jumbo */
 
 .jumbo {
     background-color: #b4d0e7;
     margin-bottom: 5rem;
 }
 
-.jumbo button {
-    width: 13rem;
-    padding: .8rem 0;
-}
 
 .jumbo p {
     margin-bottom: 3rem;
@@ -132,6 +142,8 @@ padding-bottom: 1rem;
     position: absolute;
 }
 
+/* Stile article */
+
 .fatturation-info {
     padding-top: 5rem;
 }
@@ -151,19 +163,136 @@ main h2 {
     flex-wrap: wrap;
 }
 
+article {
+    border: 1px solid #e3e3e4;
+    width: calc(33% - 3rem);
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+
+main article i {
+    color: black;
+    margin-right: .5rem;
+}
+
+main article span {
+    text-align: center;
+    padding: .4rem;
+    border-bottom: 1px solid #e3e3e4;
+}
+
+main article>section {
+    padding: 2rem;
+}
+
+main article>section>section>* {
+    padding-bottom: 1rem;
+}
+
+main article>section>section li {
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: first baseline;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+.orizontal {
+    width: 100%;
+}
+
+.orizontal section {
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.orizontal section section {
+    width: 60%;
+}
+
+.orizontal button {
+    width: 20%;
+}
+
+.orizontal section section p:nth-child(2) {
+    font-weight: bold;
+}
+
+article hr {
+    color: #e3e3e4;
+    border: 1px solid #e3e3e4;
+    width: 25%;
+}
+
+/* Stile Partner */
+
 .partner {
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 .partner img {
-    width: calc(60% - 3rem);
+    width: calc(70% - 3rem);
 }
 
 .partner section {
-    width: 40%;
+    margin-top: 3rem;
+    width: 30%;
 }
+
+.partner h3,
+.partner p {
+    margin-bottom: 1rem;
+}
+
+/* Companies Area Style */
+
+.companies-area {
+    align-items: flex-start;
+    min-width: 1000px;
+    background-color: gray;
+}
+
+.companies-area figure {
+    width: 50%;
+    background-color: blue;
+}
+
+.companies-area img {
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+}
+
+.companies-area div {
+    width: 35%;
+}
+
+.companies-area div:nth-child(2) {
+    width: 30%;
+}
+
+.companies-area div.flex.column {
+    padding: 3rem;
+}
+
+.companies-area div.flex.column img {
+    padding: 0;
+    padding-bottom: 2rem;
+    background-color: transparent;
+    width: 60%;
+    align-self: start;
+
+}
+
+.companies-area hr {
+    width: 20%;
+}
+
+/* Stile Operations */
 
 .operations {
     display: flex;
@@ -174,6 +303,8 @@ main h2 {
 .operations section {
     width: calc(33% - 2rem)
 }
+
+/* Stile ADV */
 
 .adv {
     padding: 8rem 0;
@@ -187,6 +318,7 @@ main h2 {
 .adv h2 {
     width: 60%;
 }
+/* Stile FAQ */
 
 .faq li {
     padding: 2.5rem 0;
@@ -240,93 +372,6 @@ footer hr {
     color: #949c9c;
 }
 
-/* Stile article */
-
-article {
-    border: 1px solid black;
-    width: calc(33% - 2rem);
-    font-size: .8rem;
-    margin-bottom: 2rem;
-}
-
-main i {
-    color: black;
-}
-
-main article span {
-    text-align: center;
-    padding: .4rem;
-}
-
-main article>section {
-    padding: 2rem;
-}
-
-main article>section>section>* {
-    padding-bottom: 1rem;
-}
-
-main article>section>section li {
-    padding-bottom: 1rem;
-}
-
-h3 {
-    font-size: 1.4rem;
-}
-
-.orizontal {
-    width: 100%;
-}
-
-.orizontal section {
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-
-/* Companies Area Style */
-
-.companies-area {
-    align-items: flex-start;
-    min-width: 1000px;
-    background-color: gray;
-}
-
-.companies-area figure {
-    width: 50%;
-    background-color: blue;
-}
-
-.companies-area img {
-    width: 100%;
-    height: 100%;
-    padding: 25%;
-}
-
-.companies-area div {
-    width: 35%;
-}
-
-.companies-area div:nth-child(2) {
-    width: 30%;
-}
-
-.companies-area div.flex.column {
-    padding: 3rem;
-}
-
-.companies-area div.flex.column img {
-    padding: 0;
-    padding-bottom: 2rem;
-    background-color: transparent;
-    width: 60%;
-    align-self: start;
-
-}
-
-.companies-area hr {
-    width: 20%;
-}
 
 /* Stile Bottoni */
 
@@ -335,10 +380,31 @@ button {
     padding: .4rem 1rem;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .blue {
     background-color: #0765ff;
+    padding: .6rem 1.2rem;
     color: white;
+}
+
+.white {
+    background-color: white;
+    padding: .6rem 1.2rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.jumbo button {
+    width: 14rem;
+    padding: .8rem;
+    font-size: 1rem;
+}
+article button {
+    width: 100%;
 }
