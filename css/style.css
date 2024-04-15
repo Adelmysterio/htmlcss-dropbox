@@ -73,7 +73,6 @@ header li {
 
 .jumbo {
     background-color: aquamarine;
-
 }
 
 main h1 {
@@ -85,7 +84,7 @@ main section.flex.column {
 width: 40%;
 }
 
-.img-box {
+.jumbo .img-box {
     width: 60%;
     position:relative;
 }
@@ -103,6 +102,18 @@ font-size: 2.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.partner{
+    justify-content: space-between;
+    align-items:center;
+}
+.partner  img {
+    width: calc(60% - 3rem);
+}
+
+.partner section {
+    width: 40%;
 }
 
 /* Stile article */
@@ -137,5 +148,13 @@ h3 {
     font-size: 1.4rem;
 }
 
+.orizontal {
+    width: 100%;
+    margin-bottom: 10rem;
+}
 
+.orizontal section{
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
