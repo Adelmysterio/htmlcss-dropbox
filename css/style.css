@@ -47,6 +47,10 @@ a {
 .margin-bottom {
     margin-bottom: 2.5rem;
 }
+
+.wrap {
+    flex-wrap: wrap;
+}
 /* Stile Header */
 
 header {
@@ -80,7 +84,7 @@ main h1 {
     font-weight: 900;
 }
 
-main section.flex.column {
+main .jumbo section.flex.column {
 width: 40%;
 }
 
@@ -102,11 +106,14 @@ font-size: 2.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 10rem;
 }
 
 .partner{
     justify-content: space-between;
     align-items:center;
+    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 .partner  img {
     width: calc(60% - 3rem);
@@ -115,6 +122,17 @@ font-size: 2.5rem;
 .partner section {
     width: 40%;
 }
+
+.operation-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operation-area section {
+    width: calc(33% - 2rem)
+}
+
 
 /* Stile article */
 
@@ -150,7 +168,6 @@ h3 {
 
 .orizontal {
     width: 100%;
-    margin-bottom: 10rem;
 }
 
 .orizontal section{
