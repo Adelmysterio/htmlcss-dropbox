@@ -54,8 +54,13 @@ a {
 .operation-area,
 .client-count,
 .partner,
-.article-area {
+.article-area,
+.adv {
     margin-bottom: 10rem;
+}
+
+.bordeaux {
+    color: #60042c;
 }
 /* Stile Header */
 
@@ -182,6 +187,18 @@ h3 {
 .orizontal section{
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.adv {
+    padding: 8rem 0;
+    background-color: bisque;
+}
+.adv section{
+    justify-content: space-between;
+}
+
+.adv h2 {
+    width: 60%;
 }
 
 /* Companies Area Style */
