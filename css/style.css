@@ -124,12 +124,16 @@ font-size: 2.5rem;
 }
 
 .operation-area {
+    margin-bottom: 10rem;
+}
+
+.operations {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.operation-area section {
+.operations section {
     width: calc(33% - 2rem)
 }
 
