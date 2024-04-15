@@ -55,7 +55,8 @@ a {
 .client-count,
 .partner,
 .article-area,
-.adv {
+.adv,
+.faq {
     margin-bottom: 10rem;
 }
 
@@ -201,6 +202,38 @@ h3 {
     width: 60%;
 }
 
+.faq li {
+    padding: 2.5rem 0;
+    justify-content: space-between;
+    border-top: 1px solid #b7b7b7;
+    font-weight: bold;
+}
+
+.faq li:last-child{
+    border-bottom: 1px solid #b7b7b7;
+}
+
+/* Stile Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer div {
+    justify-content: space-between;
+}
+
+footer nav {
+    width: calc(20% - 3rem);
+    align-items: flex-start;
+}
+
+footer
 /* Companies Area Style */
 
 .companies-area {
@@ -214,9 +247,9 @@ h3 {
 }
 
 .companies-area img {
-   height: 100%;
    width: 100%;
-   padding: 4rem;
+   height: 100%;
+   padding: 25%;
 }
 
 .companies-area div {
