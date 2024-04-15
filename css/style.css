@@ -35,12 +35,18 @@ a {
     padding-top: 5rem;
     max-width: 1200px;
     min-width: 600px;
-    display: flex;
-    flex-direction: column;
 }
 
-.small-container
+.small-container {
+    margin: 0 auto;
+    padding-top: 5rem;
+    max-width: 1000px;
+    min-width: 600px;
+}
 
+.margin-bottom {
+    margin-bottom: 2.5rem;
+}
 /* Stile Header */
 
 header {
@@ -72,7 +78,6 @@ header li {
 
 main h1 {
     font-size: 4.5rem;
-    position: relative;
     font-weight: 900;
 }
 
@@ -82,8 +87,55 @@ width: 40%;
 
 .img-box {
     width: 60%;
+    position:relative;
 }
 
 .img-box img {
     width: 100%;
+    /* position: absolute; */
 }
+
+main h2 {
+font-size: 2.5rem;
+}
+
+.article-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Stile article */
+
+article {
+    border: 1px solid black;
+    width: calc(33% - 2rem);
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+main i {
+    color: black;
+}
+main article span {
+    text-align: center;
+    padding: .4rem;
+}
+
+main article>section {
+    padding: 2rem;
+}
+
+main article>section>section>* {
+    padding-bottom: 1rem;
+}
+
+main article>section>section li{
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+
+
