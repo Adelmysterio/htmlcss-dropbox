@@ -31,9 +31,15 @@ a {
 }
 
 .large-container {
-    background-color: aquamarine;
-
+    margin: 0 auto;
+    padding-top: 5rem;
+    max-width: 1200px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
 }
+
+.small-container
 
 /* Stile Header */
 
@@ -60,12 +66,8 @@ header li {
 
 
 .jumbo {
-    margin: 0 auto;
-    padding-top: 5rem;
-    max-width: 1200px;
-    min-width: 1000px;
-    display: flex;
-    flex-direction: column;
+    background-color: aquamarine;
+
 }
 
 main h1 {
