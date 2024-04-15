@@ -63,6 +63,7 @@ a {
 .bordeaux {
     color: #60042c;
 }
+
 /* Stile Header */
 
 header {
@@ -101,12 +102,12 @@ main h1 {
 }
 
 main .jumbo section.flex.column {
-width: 40%;
+    width: 40%;
 }
 
 .jumbo .img-box {
     width: 60%;
-    position:relative;
+    position: relative;
 }
 
 .img-box img {
@@ -115,7 +116,7 @@ width: 40%;
 }
 
 main h2 {
-font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .article-area {
@@ -124,12 +125,13 @@ font-size: 2.5rem;
     flex-wrap: wrap;
 }
 
-.partner{
+.partner {
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
 }
-.partner  img {
+
+.partner img {
     width: calc(60% - 3rem);
 }
 
@@ -157,9 +159,11 @@ article {
     font-size: .8rem;
     margin-bottom: 2rem;
 }
+
 main i {
     color: black;
 }
+
 main article span {
     text-align: center;
     padding: .4rem;
@@ -173,7 +177,7 @@ main article>section>section>* {
     padding-bottom: 1rem;
 }
 
-main article>section>section li{
+main article>section>section li {
     padding-bottom: 1rem;
 }
 
@@ -185,7 +189,7 @@ h3 {
     width: 100%;
 }
 
-.orizontal section{
+.orizontal section {
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -194,7 +198,8 @@ h3 {
     padding: 8rem 0;
     background-color: bisque;
 }
-.adv section{
+
+.adv section {
     justify-content: space-between;
 }
 
@@ -209,7 +214,7 @@ h3 {
     font-weight: bold;
 }
 
-.faq li:last-child{
+.faq li:last-child {
     border-bottom: 1px solid #b7b7b7;
 }
 
@@ -218,9 +223,10 @@ h3 {
 footer {
     background-color: black;
     color: white;
+    padding-bottom: 3rem;
 }
 
-footer a{
+footer a {
     color: white;
 }
 
@@ -233,7 +239,26 @@ footer nav {
     align-items: flex-start;
 }
 
-footer
+footer h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+footer hr {
+    width: 8rem;
+    height: 2px;
+    color: white;
+}
+
+.language p *{
+    margin-right: .5rem;
+    color: #949c9c;
+}
+
 /* Companies Area Style */
 
 .companies-area {
@@ -241,15 +266,16 @@ footer
     min-width: 1000px;
     background-color: gray;
 }
+
 .companies-area figure {
     width: 50%;
-    background-color: blue;    
+    background-color: blue;
 }
 
 .companies-area img {
-   width: 100%;
-   height: 100%;
-   padding: 25%;
+    width: 100%;
+    height: 100%;
+    padding: 25%;
 }
 
 .companies-area div {
@@ -260,17 +286,19 @@ footer
     width: 30%;
 }
 
-.companies-area div.flex.column{
-    padding: 3rem;   
+.companies-area div.flex.column {
+    padding: 3rem;
 }
-.companies-area div.flex.column img{
+
+.companies-area div.flex.column img {
     padding: 0;
     padding-bottom: 2rem;
     background-color: transparent;
     width: 60%;
     align-self: start;
-    
+
 }
+
 .companies-area hr {
     width: 20%;
 }
