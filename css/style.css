@@ -19,7 +19,20 @@ a {
 
 .flex {
     display: flex;
+}
+
+.centered {
     align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.large-container {
+    background-color: aquamarine;
+
 }
 
 /* Stile Header */
@@ -45,8 +58,23 @@ header li {
 
 /* Stile Main */
 
-.large-container {
+
+.jumbo {
     margin: 0 auto;
+    padding-top: 5rem;
     max-width: 1200px;
-    min-width: 600px;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    position: relative;
+    font-weight: 900;
+}
+
+
+.img-box img {
+    width: 100%;
 }
