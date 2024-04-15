@@ -39,7 +39,6 @@ a {
 
 .small-container {
     margin: 0 auto;
-    padding-top: 5rem;
     max-width: 1000px;
     min-width: 600px;
 }
@@ -50,6 +49,13 @@ a {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.operation-area,
+.client-count,
+.partner,
+.article-area {
+    margin-bottom: 10rem;
 }
 /* Stile Header */
 
@@ -79,6 +85,10 @@ header li {
     background-color: aquamarine;
 }
 
+.fatturation-info {
+    padding-top: 5rem;
+}
+
 main h1 {
     font-size: 4.5rem;
     font-weight: 900;
@@ -106,14 +116,12 @@ font-size: 2.5rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 10rem;
 }
 
 .partner{
     justify-content: space-between;
     align-items:center;
-    margin-bottom: 5rem;
-    margin-bottom: 10rem;
+
 }
 .partner  img {
     width: calc(60% - 3rem);
@@ -121,10 +129,6 @@ font-size: 2.5rem;
 
 .partner section {
     width: 40%;
-}
-
-.operation-area {
-    margin-bottom: 10rem;
 }
 
 .operations {
@@ -136,6 +140,7 @@ font-size: 2.5rem;
 .operations section {
     width: calc(33% - 2rem)
 }
+
 
 
 /* Stile article */
@@ -179,3 +184,43 @@ h3 {
     align-items: flex-start;
 }
 
+/* Companies Area Style */
+
+.companies-area {
+    align-items: flex-start;
+    min-width: 1000px;
+    background-color: gray;
+}
+.companies-area figure {
+    width: 50%;
+    background-color: blue;    
+}
+
+.companies-area img {
+   height: 100%;
+   width: 100%;
+   padding: 4rem;
+}
+
+.companies-area div {
+    width: 35%;
+}
+
+.companies-area div:nth-child(2) {
+    width: 30%;
+}
+
+.companies-area div.flex.column{
+    padding: 3rem;   
+}
+.companies-area div.flex.column img{
+    padding: 0;
+    padding-bottom: 2rem;
+    background-color: transparent;
+    width: 60%;
+    align-self: start;
+    
+}
+.companies-area hr {
+    width: 20%;
+}
