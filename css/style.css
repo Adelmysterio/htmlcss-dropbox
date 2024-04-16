@@ -226,6 +226,18 @@ article hr {
     width: 25%;
 }
 
+/* Stile Operations */
+
+.operations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operations section {
+    width: calc(33% - 2rem)
+}
+
 /* Stile Partner */
 
 .partner {
@@ -258,12 +270,13 @@ article hr {
 
 .companies-area figure {
     width: 50%;
+    aspect-ratio: 1/1;
     background-color: blue;
+    position: relative;
 }
 
 .companies-area img {
     width: 100%;
-    height: 100%;
     padding: 25%;
 }
 
@@ -292,18 +305,11 @@ article hr {
     width: 20%;
 }
 
-/* Stile Operations */
-
-.operations {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+#designit {
+    background-color: #a2d39b;
+    border: 1rem solid #d7f2d5;
+    
 }
-
-.operations section {
-    width: calc(33% - 2rem)
-}
-
 /* Stile ADV */
 
 .adv {
