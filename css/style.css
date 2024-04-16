@@ -166,7 +166,7 @@ main h2 {
 
 article {
     border: 1px solid #e3e3e4;
-    width: calc(33% - 3rem);
+    width: 29%;
     font-size: .8rem;
     margin-bottom: 2rem;
 }
@@ -215,7 +215,7 @@ h3 {
 }
 
 .orizontal button {
-    width: 20%;
+    width: 25%;
 }
 
 .orizontal section section p:nth-child(2) {
@@ -259,12 +259,21 @@ article hr {
 }
 
 .operations section {
-    width: calc(33% - 2rem)
+    width: 29%
+}
+
+.operation-area h2 {
+    margin-bottom: 5rem;
 }
 
 .operation-area h3 {
     margin-bottom: 1.5rem;
 }
+
+.operation-area {
+    margin-bottom: 10rem;
+}
+
 /* Companies Area Style */
 
 .companies-area {
@@ -276,8 +285,6 @@ article hr {
 .companies-area figure {
     width: 50%;
     aspect-ratio: 1/1;
-    background-color: blue;
-    position: relative;
 }
 
 .companies-area img {
@@ -286,28 +293,33 @@ article hr {
 }
 
 .companies-area div {
-    width: 35%;
+    width: 33%;
 }
+
 
 .companies-area div:nth-child(2) {
-    width: 30%;
+    width: 34%;
+    max-width: 1200px;
+    padding: 4%;
 }
 
-.companies-area div.flex.column {
-    padding: 3rem;
+
+.companies-area div:nth-child(2) p {
+    font-size: 100%;
 }
 
-.companies-area div.flex.column img {
+.companies-area div:nth-child(2) img {
     padding: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 10%;
     background-color: transparent;
-    width: 60%;
+    width: 50%;
     align-self: start;
-
 }
 
 .companies-area hr {
     width: 20%;
+    color: #b7b7b73b;
+    margin-bottom: 10%;
 }
 
 #designit {
@@ -365,6 +377,10 @@ article hr {
 }
 
 /* Stile FAQ */
+
+.faq h2 {
+    margin-bottom: 4rem;
+}
 
 .faq li {
     padding: 2.5rem 0;
@@ -428,6 +444,7 @@ button {
     text-align: center;
     text-decoration: none;
     font-size: .8rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .blue {
