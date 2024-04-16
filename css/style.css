@@ -265,7 +265,7 @@ article hr {
 .companies-area {
     align-items: flex-start;
     min-width: 1000px;
-    background-color: gray;
+    background-color: #f5f5f5;
 }
 
 .companies-area figure {
@@ -310,20 +310,54 @@ article hr {
     border: 1rem solid #d7f2d5;
     
 }
+
+#asu {
+    background-color: #61082b;
+}
+
+#uf {
+    background-color: #0765ff;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+#wbr {
+    background-color: #d5001f;
+}
+
+#hearst {
+    background-color: #b4d0e7;
+}
+
+#lonely {
+    background-color:#0d2481;
+}
+
+#clear {
+    background-color: #ffd830;
+}
 /* Stile ADV */
 
 .adv {
     padding: 8rem 0;
-    background-color: bisque;
+    background-color: #b4d0e7;
 }
 
 .adv section {
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .adv h2 {
-    width: 60%;
+    width: 50%;
 }
+
+.adv button{
+width: 30%;
+}
+
 /* Stile FAQ */
 
 .faq li {
@@ -347,6 +381,7 @@ footer {
 
 footer a {
     color: white;
+    text-decoration: none;
 }
 
 footer div {
@@ -413,4 +448,8 @@ button {
 }
 article button {
     width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
 }
