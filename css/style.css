@@ -299,13 +299,12 @@ article hr {
 
 .companies-area div:nth-child(2) {
     width: 34%;
-    max-width: 1200px;
     padding: 4%;
 }
 
 
 .companies-area div:nth-child(2) p {
-    font-size: 100%;
+    font-size: .8vw;
 }
 
 .companies-area div:nth-child(2) img {
