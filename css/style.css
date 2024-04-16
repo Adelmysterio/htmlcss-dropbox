@@ -504,12 +504,20 @@ header a:hover {
     background-color: #0765ff;
     color: white;
 }
-.no-show,
-i.no-show {
+.no-show{
     display: none;
+}
+
+.accordion:hover p:first-child{
+    color: #0765ff;
 }
 
 .accordion:hover .no-show {
     margin-top: 2rem;
     display: initial;
+}
+
+.language:hover *,
+footer li:hover a {
+    color: #0765ff;
 }
