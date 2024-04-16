@@ -34,13 +34,13 @@ a {
     margin: 0 auto;
     padding-top: 5rem;
     max-width: 1200px;
-    min-width: 600px;
+    min-width: 1000px;
 }
 
 .small-container {
     margin: 0 auto;
     max-width: 1000px;
-    min-width: 600px;
+    min-width: 1000px;
 }
 
 .margin-bottom {
@@ -61,7 +61,7 @@ a {
 }
 
 .price {
-font-weight: bold;
+    font-weight: bold;
 }
 
 .times {
@@ -85,7 +85,8 @@ header {
     right: 0;
     top: 0;
     background-color: white;
-    box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.322);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.322);
+    min-width: 1000px;
 }
 
 nav {
@@ -125,8 +126,8 @@ header a {
 }
 
 .jumbo i {
-font-size: 3rem;
-padding-bottom: 1rem;
+    font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .jumbo section.flex.column {
@@ -209,6 +210,7 @@ h3 {
     align-items: flex-start;
 
 }
+
 .orizontal section section {
     width: 60%;
 }
@@ -309,7 +311,7 @@ article hr {
 #designit {
     background-color: #a2d39b;
     border: 1rem solid #d7f2d5;
-    
+
 }
 
 #asu {
@@ -333,12 +335,13 @@ article hr {
 }
 
 #lonely {
-    background-color:#0d2481;
+    background-color: #0d2481;
 }
 
 #clear {
     background-color: #ffd830;
 }
+
 /* Stile ADV */
 
 .adv {
@@ -355,8 +358,8 @@ article hr {
     width: 50%;
 }
 
-.adv button{
-width: 30%;
+.adv button {
+    width: 30%;
 }
 
 /* Stile FAQ */
@@ -447,10 +450,15 @@ button {
     padding: .8rem;
     font-size: 1rem;
 }
+
 article button {
     width: 100%;
 }
 
 button:hover {
     cursor: pointer;
+}
+
+input[type="radio"] {
+    accent-color: #0765ff;
 }
