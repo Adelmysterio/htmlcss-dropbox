@@ -262,6 +262,9 @@ article hr {
     width: calc(33% - 2rem)
 }
 
+.operation-area h3 {
+    margin-bottom: 1.5rem;
+}
 /* Companies Area Style */
 
 .companies-area {
