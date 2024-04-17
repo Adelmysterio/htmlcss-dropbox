@@ -92,9 +92,10 @@ button {
     font-family: "Familjen Grotesk", sans-serif;
     padding: .5rem 1rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button>span {
@@ -102,20 +103,16 @@ button>span {
     color: #1e1919;
 }
 
-header button {
+.traslucent {
+    padding: .7rem 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
     color: white;
 }
 
-.jumbo button.blue {
-    padding: 1.5rem;
-}
-
-.jumbo button.traslucent {
-
-}
-
 .blue {
-    background-color: #0061fe;
+    background-color: #3984ff;
+    padding: 1.5rem;
 }
 
 /* Stile Header */
@@ -140,7 +137,11 @@ header a {
     color: #1e1919;
 }
 
-
+header button {
+    background-color: #0061fe;
+    color: white;
+    border-radius: 10px;
+}
 
 /* Stile Main */
 main {
@@ -161,8 +162,24 @@ main {
     margin-bottom: 1rem;
 }
 
-.jumbo button {
+.jumbo button.blue {
     margin: 1.5rem 0;
+}
+
+.jumbo button.traslucent {
+    margin-left: 1rem;
+}
+
+.jumbo input[type="email"] {
+    height: 2.8rem;
+    width: 20rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+}
+
+.jumbo input[type="email"]:focus {
+    outline: none;
 }
 
 video {
@@ -191,6 +208,15 @@ video {
     width: 60vw;
 }
 
+.tag {
+    font-size: .8rem;
+    font-weight: bold;
+    background-color: #deebff;
+    color: #0061fe;
+    border-radius: 40px;
+    padding: .3rem .6rem;
+}
+
 /* Stile Use Area */
 
 .use-area div>section {
@@ -209,6 +235,10 @@ video {
 
 .use-area div>section>section>*:not(h3) {
     margin-top: 1.5rem;
+}
+
+.use-area button {
+    padding: 1rem 1.5rem;
 }
 
 /* Stile Stats-Area */
@@ -277,6 +307,11 @@ video {
     width: 25%;
 }
 
+.adv button>span {
+    width: 70%;
+    text-align: left;
+}
+
 /* Stile Footer */
 
 footer {
@@ -299,7 +334,7 @@ footer div {
 }
 
 footer nav {
-    width: calc(20% - 3rem);
+    width: 12%;
     align-items: flex-start;
 }
 
