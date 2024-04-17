@@ -29,6 +29,10 @@ h2 {
     font-weight: 500;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 .flex {
     display: flex;
 }
@@ -156,3 +160,13 @@ video {
     margin-top: 1.5rem;
 }
 
+/* Stile Stats-Area */
+
+.stats-area>div>section {
+    width: 18%;
+    margin-top: 3rem;
+}
+
+.stats-area>div>section>* {
+    margin-bottom: 1rem;
+}
