@@ -5,10 +5,55 @@
 }
 
 body {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Familjen Grotesk", sans-serif;
 }
 
 /* Stile Generale */
 
+.flex {
+    display: flex;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-brown {
+    background-color: #1e1919;
+}
 /* Stile Header */
 
+header figure {
+    background-color: #0061fe;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: .75rem;
+}
+
+header nav {
+    padding: 1rem .5rem;
+    
+}
+
+header nav ul li {
+margin: 0 1rem;
+}
+
+header a {
+    color: #1e1919;
+}
+
+/* Stile Main */
