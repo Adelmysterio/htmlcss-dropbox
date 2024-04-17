@@ -86,6 +86,38 @@ h2 {
     max-width: 1400px;
 }
 
+/* Stile Bottoni */
+
+button {
+    font-family: "Familjen Grotesk", sans-serif;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+button>span {
+    margin-right: 1.5rem;
+    color: #1e1919;
+}
+
+header button {
+    color: white;
+}
+
+.jumbo button.blue {
+    padding: 1.5rem;
+}
+
+.jumbo button.traslucent {
+
+}
+
+.blue {
+    background-color: #0061fe;
+}
+
 /* Stile Header */
 
 header figure {
@@ -107,6 +139,8 @@ header nav ul li {
 header a {
     color: #1e1919;
 }
+
+
 
 /* Stile Main */
 main {
@@ -276,6 +310,7 @@ footer h3 {
 footer li {
     margin-bottom: 1rem;
 }
+
 .social i {
     font-size: 1.5rem;
     margin-right: 1rem;
@@ -291,4 +326,3 @@ footer .divider {
     margin-right: .5rem;
     color: #949c9c;
 }
-
