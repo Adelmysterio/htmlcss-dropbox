@@ -46,6 +46,10 @@ h2 {
     justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .bg-brown {
     background-color: #1e1919;
 }
@@ -54,8 +58,8 @@ h2 {
     text-align: center;
 }
 
-.padding-top {
-    padding-top: 4.5rem;
+.margin-top {
+    margin-top: 4.5rem;
 }
 
 .smaller-container {
@@ -102,6 +106,10 @@ main {
 
 /* Stile Jumbo */
 
+.jumbo {
+    padding-top: 4.5rem;
+}
+
 video {
     width: 90vw;
 }
@@ -124,6 +132,27 @@ video {
     margin-bottom: .9rem;
 }
 
-.presentation video{
-width: 60vw;
+.presentation video {
+    width: 60vw;
 }
+
+/* Stile Use Area */
+
+.use-area div>section {
+    width: 48%;
+    background-color: #2b2929;
+}
+
+.use-area div>section>img {
+    width: 100%;
+    height: 100%;
+}
+
+.use-area div>section>section {
+    padding: 3rem;
+}
+
+.use-area div>section>section>*:not(h3) {
+    margin-top: 1.5rem;
+}
+
