@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,9 +6,28 @@
 
 body {
     font-family: "Familjen Grotesk", sans-serif;
+    font-size: 1.1rem;
 }
 
 /* Stile Generale */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
 
 .flex {
     display: flex;
@@ -27,24 +46,33 @@ body {
     justify-content: space-between;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .bg-brown {
     background-color: #1e1919;
 }
 
-.container{
-    padding: 4.5rem;
-    margin: 0 auto;
-    max-width: 700px;
+.text-center {
     text-align: center;
 }
+
+.padding-top {
+    padding-top: 4.5rem;
+}
+
+.smaller-container {
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.small-container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.medium-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* Stile Header */
 
 header figure {
@@ -56,11 +84,11 @@ header figure {
 
 header nav {
     padding: 1rem .5rem;
-    
+
 }
 
 header nav ul li {
-margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 header a {
@@ -68,18 +96,34 @@ header a {
 }
 
 /* Stile Main */
-
 main {
     color: white;
 }
 
 /* Stile Jumbo */
 
-.jumbo h1 {
-    font-size: 3rem;
-    font-weight: 500;
-}
-
 video {
     width: 90vw;
+}
+
+/* Stile Info */
+
+.info div.medium-container>section {
+    width: 20%;
+
+}
+
+.info div.medium-container>section>h3 {
+    margin-bottom: 1rem;
+}
+
+/* Stile Presentation */
+
+.presentation>span:first-child,
+.presentation section>* {
+    margin-bottom: .9rem;
+}
+
+.presentation video{
+width: 60vw;
 }
