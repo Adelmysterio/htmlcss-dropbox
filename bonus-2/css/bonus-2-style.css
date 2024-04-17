@@ -81,6 +81,11 @@ h2 {
     max-width: 1200px;
 }
 
+.large-container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 /* Stile Header */
 
 header figure {
@@ -92,7 +97,7 @@ header figure {
 
 header nav {
     padding: 1rem .5rem;
-
+    min-width: 1200px;
 }
 
 header nav ul li {
@@ -112,6 +117,18 @@ main {
 
 .jumbo {
     padding-top: 4.5rem;
+}
+
+.jumbo h1 {
+    margin-bottom: 1rem;
+}
+
+.jumbo p {
+    margin-bottom: 1rem;
+}
+
+.jumbo button {
+    margin: 1.5rem 0;
 }
 
 video {
@@ -170,3 +187,108 @@ video {
 .stats-area>div>section>* {
     margin-bottom: 1rem;
 }
+
+/* Stile Feedback */
+
+.feedback {
+    background-color: #2b2929;
+    padding: 5rem 0;
+}
+
+.feedback figure {
+    width: 30%;
+    aspect-ratio: 1/1;
+    background-color: white
+}
+
+.feedback img {
+    width: 50%;
+}
+
+.feedback>section>section {
+    width: 60%;
+}
+
+.feedback a {
+    color: white;
+    text-decoration: underline;
+}
+
+.feedback>section>section>p:first-child {
+    padding-bottom: 2rem;
+}
+
+.feedback>section>section>p:nth-child(3) {
+    padding: 1rem 0;
+    font-weight: 500;
+}
+
+.feedback>section>section>p:nth-child(4) {
+    color: #999694;
+    font-size: .95rem;
+}
+
+/* Stile ADV */
+
+.adv {
+    padding: 3rem 0;
+    align-items: flex-start;
+}
+
+.adv h1 {
+    width: 40%;
+}
+
+.adv button {
+    width: 25%;
+}
+
+/* Stile Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 8rem 0;
+}
+
+.footer-nav-area {
+    padding-bottom: 5rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div {
+    justify-content: space-between;
+}
+
+footer nav {
+    width: calc(20% - 3rem);
+    align-items: flex-start;
+}
+
+footer h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+.social i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer .divider {
+    width: 8rem;
+    margin: 2rem 0;
+    border-top: 1px solid;
+}
+
+.language p * {
+    margin-right: .5rem;
+    color: #949c9c;
+}
+
